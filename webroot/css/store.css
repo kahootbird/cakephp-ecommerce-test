@@ -1,0 +1,52 @@
+.values {
+  background-image: url('../img/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #01aFC7;
+}
+
+
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../img/values-bg.jpg');
+  background-size: cover;
+  color: #ffD;
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 11rem 0 11rem;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+
+    .adjusted {
+    position: absolute;
+    top: -7rem;
+ 
+    max-height: 362px;
+    z-index: 3;
+  }
+}
+
